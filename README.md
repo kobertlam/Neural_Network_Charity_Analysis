@@ -25,6 +25,10 @@ From Alphabet Soup’s business team, you received a [CSV](./Resources/charity_d
         * For the output layer, we use `sigmoid` activation function will help us predict the probability that the applicant will be successful if funded.
         ![D2_model](./Resources/D2_Model.jpg)
     * Were you able to achieve the target model performance?
+        * The accuracy for [deliverable 2](AlphabetSoupCharity.ipynb) is 73%
+        ![D2_accuracy](./Resources/D2_accuracy.jpg)
+        * After optimization, the new accuracy for [deliverable 3](AlphabetSoupCharity_Optimization.ipynb) is 79% (which is higher than the 75% target)
+        ![D3_accuracy](./Resources/D3_accuracy.jpg)
     * What steps did you take to try and increase model performance?
 
 ## Summary:
