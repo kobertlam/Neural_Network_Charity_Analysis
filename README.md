@@ -40,6 +40,9 @@ From Alphabet Soup’s business team, you received a [CSV](./Resources/charity_d
         * Here is the structure of the model:
         ![D3_model](./Resources/D3_Model.jpg)
 
-
 ## Summary:
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+* By taking steps described in the 'Results' section, we are able to optimize the deep-learning neural network model in order to achieve the better accuracy of 79% (which is higher than the target predictive accuracy of 75%).
+* `Random Forest classifiers` may be an alterative for solving this classification problem, with the following reasons:
+    1. Random forest can handle outliers and nonlinear data well
+    2. Random forest models handle tabular data
+    3. Since there is about 34,000 records available, a random forest model with a sufficient number of estimators and tree depth should be able to perform at a similar capacity to the deep learning models.
