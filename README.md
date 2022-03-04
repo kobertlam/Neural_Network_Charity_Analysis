@@ -23,6 +23,7 @@ From Alphabet Soup’s business team, you received a [CSV](./Resources/charity_d
         * The output layer has 1 neuron, as usual.
         * In the first and second layer, we use the `relu` activation function to identify nonlinear characteristics from the input values.
         * For the output layer, we use `sigmoid` activation function will help us predict the probability that the applicant will be successful if funded.
+        * Here is the structure of the model:
         ![D2_model](./Resources/D2_Model.jpg)
     * Were you able to achieve the target model performance?
         * The accuracy for [deliverable 2](AlphabetSoupCharity.ipynb) is 73%
@@ -30,6 +31,15 @@ From Alphabet Soup’s business team, you received a [CSV](./Resources/charity_d
         * After optimization, the new accuracy for [deliverable 3](AlphabetSoupCharity_Optimization.ipynb) is 79% (which is higher than the 75% target)
         ![D3_accuracy](./Resources/D3_accuracy.jpg)
     * What steps did you take to try and increase model performance?
+        * Keep `NAME` column, and binning the column with value counts < 7
+        * Drop `STATUS` column, since this column is non-informative
+        * Create more bins (from 6 to 9) for `CLASSIFICATION` column
+        * Add more neuron to hidden layers (from 80 to 120 for layer 1, from 30 to 60 for layer 2)
+        * Add the third hidden layer (with 30 neuron)
+        * We keep using the  `relu` activation function for the hidden layers and using `sigmoid` activation function at the output layer.
+        * Here is the structure of the model:
+        ![D3_model](./Resources/D3_Model.jpg)
+
 
 ## Summary:
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
