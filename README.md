@@ -11,9 +11,9 @@ From Alphabet Soup’s business team, you received a [CSV](./Resources/charity_d
     * What variable(s) are considered the target(s) for your model?
         * The `IS_SUCCESSFUL` column is the **target output**.
     * What variable(s) are considered to be the features for your model?
-        * The variables 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', and 'ASK_AMT' are considered as **features**.
+        * The variables `APPLICATION_TYPE`, `AFFILIATION`, `CLASSIFICATION`, `USE_CASE`, `ORGANIZATION`, `STATUS`, `INCOME_AMT`, `SPECIAL_CONSIDERATIONS`, and `ASK_AMT` are considered as **features**.
     * What variable(s) are neither targets nor features, and should be removed from the input data?
-        * The variable 'EIN' and 'NAME' are neither targets nor features, and should be removed from the input data.
+        * The variable `EIN` and `NAME` are neither targets nor features, and should be removed from the input data.
 
 * Compiling, Training, and Evaluating the Model
     * How many neurons, layers, and activation functions did you select for your neural network model, and why?
